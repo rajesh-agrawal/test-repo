@@ -1,0 +1,232 @@
+{
+	"customerInfo": {
+		"customerPrefix": "Mr",
+		"customerName": "Chandu Singh",
+		"address": "H.no 45, University Road",
+		"landmark": "Near City Hospital",
+		"village": "Marol",
+		"tehsil": "Andheri",
+		"district": "Mumbai",
+		"state": "Maharashtra",
+		"pincode": 412345
+	},
+	"contractInfo": {
+		"contractNumber": 123456789,
+		"customerAccountNumber": 987654321
+	},
+	"greeting": {
+		"dearCustomer": "Dear Customer",
+		"greetingMessage": "Greetings from John Deere Financial India Private Limited!!",
+		"thankYou": "Thank you for financing with John Deere Financial India Private Limited. We appreciate your business."
+	},
+	"letterBody": {
+		"body1": "We are indeed pleased to be of help to you in financing your asset. We have allotted a unique Loan Account Number and unique Customer Identification Code to you, which we request you to mention in all your future communications with us.",
+		"body2": "We are committed to offering high quality products and services consistent with the John Deere brand and our core values of quality, innovation, integrity and commitment. In continuation to the above commitment, we have created a Customer Care Cell on which you contact for any help or query. You could contact on 1800 209 1034 between 9:00 am to 6:30 pm or email at JDFIndiaCustomerCare@JohnDeere.com for any kind of assistance.",
+		"body3": "We value our relationship with you and we will strive to offer superior service to you. Your Payment Schedule, enclosed in Appendix 1, will help you know the due dates of payments, which I am sure you would honour and adhere to. You are requested once again to ensure timely encashment of the post dated cheques you have submitted or authorization of ECS you have provided towards Instalment payments. For any other form of payments, please make payments directly to the nearest John Deere Financial India Private Limited Office or to a John Deere Financial Executive against a valid Money Receipt. Payments against scheduled Instalments can be made directly to a John Deere Financial India Private Limited Loan account at your nearest bank. Account Details are provided in the accompanying documents.",
+		"body4": "We thank you once again for choosing John Deere Financial India Private Limited for your financing needs"
+	},
+	"letterSignature": {
+		"yoursSincerely": "Yours sincerely,",
+		"for": "For John Deere Financial India Private Limited,",
+		"disclaimer": "Signature not required as this is a system generated letter."
+	},
+	"footer": {
+		"officeAddress": "Registered Office: Tower XIV, Cyber City, Magarpatta City, Hadapsar, Pune 411 013. India.",
+		"phoneNo": "Phone No. 1800-209-1034 Fax: + 91 (20) 66425001",
+		"website": "www.deere.co.in"
+	},
+	"transactionDetails": {
+		"label": {
+			"appendix": "Appendix 1",
+			"txDetails": "Transaction Details",
+			"customerName": "Customer Name: ",
+			"loanAccountNo": "Loan Account No:",
+			"totalLoanAmount": "Total Loan Amount:",
+			"totalCost": "Total Cost:",
+			"downPayment": "Down Payment:",
+			"tenure": "Tenure:",
+			"noOfAdvanceInstallment": "No of Advance Installment:",
+			"installmentStartDate": "Installment Start Date:",
+			"pattern": "Pattern:",
+			"totalNoOfPayment": "Total No. of Payments:",
+			"rateOfInterest": "Fixed Rate of Interest:",
+			"repaymentMode": "Repayment Mode:",
+			"noOfPdc": "Number of PDC:",
+			"irr": "IRR:"
+		},
+		"customerName": "Chandu Singh",
+		"loanAccountNo": "987654321",
+		"totalLoanAmount": "250000",
+		"totalCost": "300000",
+		"downPayment": "50000",
+		"tenure": "48",
+		"noOfAdvanceInstallment": "0",
+		"installmentStartDate": "10-Jun-2020",
+		"pattern": "Semi-Annual",
+		"totalNoOfPayments": "8",
+		"rateOfInterest": "7.79%",
+		"irr": "16.235%",
+		"repaymentMode": "IN.5Y Post Dated Cheque",
+		"noOfPdc": "8"
+	},
+	"additionalCustomersLabel": {
+			"additionalCustomers": "Additonal Customers",
+			"thName": "Name",
+			"thRole": "Role"
+	},
+	"additonalCustomerValue": {
+		"customer1": {
+			"name": "Rajmanim Jitai",
+			"role": "Guarantor"
+		},
+		"customer2": {
+			"name": "Yeshveer VedPrakash",
+			"role": "Co-applicant"
+		},
+		"customer3": {
+			"name": "VedPrakash RajDev",
+			"role": "Co-applicant"
+		}
+	},
+
+	"assetInformationLabel":{
+	 "assetInformation":"Asset Information:",
+	 "thModelNo":"Model no",
+	 "thDescription":"Description",
+	 "thFinanceAmount":"Financed Amount"
+	},
+	"assestInformationValue": {
+		"assest1": {
+			"modelNo": "W70",
+			"description": "combine",
+			"financeAmount": "1,380,000.00"
+		}
+	},
+
+	"chequeRepaymentLabel":{
+		"chequeRepayment":"Cheques Furnished Towards Repayment:",
+		"thSrno":"Sr no",
+		"thChequeNo":"Cheque No"
+
+	},
+
+"chequeRepaymentValue":{
+		"cheque": {
+			"srNo": "1",
+			"chequeNo": "123456"
+		},
+		"cheque1": {
+			"srNo": "2",
+			"chequeNo": "123456"
+		}
+	},
+
+	"paymentScheduleLabel":{
+"paymentSchedule":"Payment Schedule:",
+"srNo":"Sr no.",
+"paymentDueDate":"Payment Due Date",
+"pdcNo":"PDC No",
+"installmentAmount":"Installment Amount",
+"currentPeriod":"Current Period",
+"remainingBalance":"Remaining Balance",
+"interestAmount":"Interest Amount",
+"principalAmount":"Principal Amount"
+
+	},
+
+	"paymentSchedule": {
+		"1": {
+			"srNo": "1",
+			"paymentDueDate": "31-AUG-19",
+			"pdcNo": "NA",
+			"installmentAmount": "0.00",
+			"interestAmount": "0.00",
+			"principalAmount": "0.00",
+			"remainingAmount": "1,380,000.00"
+		},
+		"2": {
+			"srNo": "2",
+			"paymentDueDate": "31-DEC-19",
+			"pdcNo": "075256",
+			"installmentAmount": "280,000.00",
+			"interestAmount": "74,685.31",
+			"principalAmount": "205,314.69",
+			"remainingAmount": "1,174,685.31"
+		},
+		"3": {
+			"srNo": "3",
+			"paymentDueDate": "30-JUN-20",
+			"pdcNo": "075257",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "95,360.58",
+			"principalAmount": "159,639.42",
+			"remainingAmount": "1,015,045.89"
+		},
+		"4": {
+			"srNo": "4",
+			"paymentDueDate": "31-DEC-20",
+			"pdcNo": "075258",
+			"installmentAmount": " 255,000.00",
+			"interestAmount": " 82,401.11",
+			"principalAmount": "172,598.89",
+			"remainingAmount": "842,447.00"
+		},
+		"5": {
+			"srNo": "5",
+			"paymentDueDate": "30-JUN-21",
+			"pdcNo": "075259",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "68,389.58",
+			"principalAmount": "186,610.42",
+			"remainingAmount": "655,836.58"
+		},
+		"6": {
+			"srNo": "6",
+			"paymentDueDate": "31-DEC-21",
+			"pdcNo": "075260",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "53,240.61",
+			"principalAmount": "201,759.39",
+			"remainingAmount": " 454,077.19"
+		},
+		"7": {
+			"srNo": "7",
+			"paymentDueDate": "30-JUN-22",
+			"pdcNo": "075261",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "36,861.84",
+			"principalAmount": "218,138.16",
+			"remainingAmount": "235,939.03"
+		},
+		"8": {
+			"srNo": "8",
+			"paymentDueDate": "31-DEC-22",
+			"pdcNo": "075262",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "19,153.46",
+			"principalAmount": "235,846.54",
+			"remainingAmount": "92.49"
+		},
+		"9": {
+			"srNo": "9",
+			"paymentDueDate": "30-JUN-23",
+			"pdcNo": "075263",
+			"installmentAmount": "100.00",
+			"interestAmount": "7.51",
+			"principalAmount": " 92.49",
+			"remainingAmount": "0.00"
+		}
+	},
+	"note": "Advance installments paid (if any) will reflect in the Statement of Account",
+	"disclaimer": {
+		"note": "Please note that all other charges including Cheque Bouncing Charges (CBC), Delayed Payment Charges (DPC), Cheque swapping charges, visit charges of employee’s etc. are as per the Agreement for Loan, Hypothecation and Guarantee or Agreement for Credit/Assignment/ Hypothecation and Guarantee, as applicable, executed by you with us. In case of any change in your Residential/Office address or Phone number, please inform us immediately in order to serve you better.",
+		"noteContinued": "Insurance Policy, Registration Certificate and Invoice duly endorsed in our favour, should be submitted to us at the earliest possible time, if you have not already done so."
+	},
+	"signature": {
+		"orgName": "John Deere Financial India Private Limited",
+		"addressLine1": "Tower-15, 2nd Floor",
+		"addressLine2": "Magarpatta City, Hadapsar",
+		"addressLine3": "Pune-411013, Maharashtra"
+	},
+	"title": "WelcomeLetter"
+}

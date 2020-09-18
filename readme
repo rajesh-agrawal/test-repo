@@ -1,0 +1,8 @@
+cd C:\work\rajesh JD\wave3\Welcome-Letter
+
+docker build -t node-web-app .
+
+        docker run -it --entrypoint bash node-web-app
+
+
+docker cp f58b455c05d6:/app/pdf/mypdf.pdf c:/work/mypdf.pdf

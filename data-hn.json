@@ -1,0 +1,244 @@
+{
+	"headerAddress": {
+		"orgName": "John Deere Financial India Private Limited",
+		"CIN": "CIN - U65923PN2011PTC141149",
+		"address": "Level 2, Tower XV, Cybercity, Magarpatta City,",
+		"addressLine1": "Hadapsar, Pune- 411 013",
+		"phoneNo": "Phone No. 1800-209-1034",
+		"faxNo": "Fax No. - 020 - 6703 2004",
+		"emailId": "JDFIndiacustomercare@johndeere.com"
+	},
+	"customerInfo": {
+		"customerPrefix": "Mr",
+		"customerName": "Chandu Singh",
+		"address": "H.no 45, University Road",
+		"landmark": "Near City Hospital",
+		"village": "Marol",
+		"tehsil": "Andheri",
+		"district": "Mumbai",
+		"state": "Maharashtra",
+		"pincode": 412345
+	},
+	"contractInfo": {
+		"contractNumberPlaceholder": "संदर्भ: ग्राहक ऋण खाता सं: ",
+		"contractNumber": 123456789,
+		"customerAccountNumberPlaceholder": "विशिष्ट ग्राहक पहचान कोड: ",
+		"customerAccountNumber": 987654321
+	},
+	"greeting": {
+		"dearCustomer": "प्रिय ग्राहक",
+		"greetingMessage": "जॉन डियर फाइनेंशियल इंडिया प्राइवेट लिमिटेड की ओर से नमस्कार!!",
+		"thankYou": "जॉन डियर फाइनेंशियल इंडिया प्राइवेट लिमिटेड के साथ फाइनेंसिंग के लिए धन्यवाद। हम आपके व्यवसाय की सराहना करते है।"
+	},
+	"letterBody": {
+		"body1": "हम निस्संदेह आपकी संपत्ति के वित्तपोषण में आपकी मदद करके प्रसन्न हैं। हमने आपको एक विशिष्ट ऋण खाता संख्या और विशिष्ट ग्राहक पहचान कोड आवंटित किया है, जिसका हम आपसे अपने भविष्य के सभी संचारों में उल्लेख करने का अनुरोध करते हैं।",
+		"body2": "हम जॉन डियर ब्रांड और हमारे गुणवत्ता, नवाचार, सत्यनिष्ठा, प्रतिबद्धता के मूल्यों के अनुरूप उच्च गुणवत्ता वाले उत्पादों और सेवाओं की पेशकश करने के लिए प्रतिबद्ध हैं। उपरोक्त प्रतिबद्धता को जारी रखते हुए, हमने एक कस्टमर केयर सेल बनाया है, जिस पर आप किसी भी मदद या प्रश्न के लिए संपर्क करते हैं। आप किसी भी तरह की सहायता के लिए 1800 209 1034 पर सुबह 9:00 बजे से शाम 6:30 के बीच संपर्क कर सकते हैं या JDFIndiaCustomerCare@JohnDeere.com पर ईमेल कर सकते हैं।",
+		"body3": "हम आपके साथ अपने रिश्ते को महत्व देते हैं और हम आपको बेहतर सेवा देने का हर प्रयास करेंगे। परिशिष्ट 1 में संलग्न आपकी भुगतान अनुसूची, आपको भुगतान की नियत तारीखों को जानने में मदद करेगी, जो मुझे यकीन है कि आप इसका सम्मान करेंगे और पालन करेंगे। आपसे एक बार फिर अनुरोध किया जाता है कि आप किस्तों के भुगतानों के लिए दिए गए दिनांकित चेक का समय पर नकदीकरण या ECS का प्राधिकरण सुनिश्चित करें। किसी भी अन्य प्रकार के भुगतान के लिए, कृपया निकटतम जॉन डियर फाइनेंशियल इंडिया प्राइवेट लिमिटेड कार्यालय को या जॉन डियर फाइनेंशियल एक्जीक्यूटिव को वैध धन की रसीद के साथ भुगतान करें। निर्धारित किस्तों के लिए भुगतान सीधे जॉन डियर फाइनेंशियल इंडिया प्राइवेट लिमिटेड लोन खाते में आपके निकटतम बैंक में किया जा सकता है। साथ के दस्तावेजों में खाता विवरण दिया गया है।",
+		"body4": "हम आपकी वित्तीय जरूरतों के लिए जॉन डियर फाइनेंशियल इंडिया प्राइवेट लिमिटेड को चुनने के लिए एक बार फिर धन्यवाद देते हैं।"
+	},
+	"letterSignature": {
+		"yoursSincerely": "सादर,",
+		"for": "जॉन डियर फाइनेंशियल इंडिया प्राइवेट लिमिटेड की ओर से,",
+		"disclaimer": "हस्ताक्षर की आवश्यकता नहीं है क्योंकि यह एक सिस्टम से उत्पन्न पत्र है। "
+	},
+	"footer": {
+		"officeAddress": "Registered Office: Tower XIV, Cyber City, Magarpatta City, Hadapsar, Pune 411 013. India.",
+		"phoneNo": "Phone No. 1800-209-1034 Fax: + 91 (20) 66425001",
+		"website": "www.deere.co.in"
+	},
+	"transactionDetails": {
+		"label": {
+			"appendix": "परिशिष्ट 1",
+			"txDetails": "लेनदेन का विवरण:",
+			"customerName": "ग्राहक का नाम:",
+			"loanAccountNo": "ऋण खाता संख्या:",
+			"totalLoanAmount": "कुल ऋण राशि: रूपए",
+			"totalCost": "कुल लागत: रूपए",
+			"downPayment": "अग्रिम राशि: रूपए",
+			"tenure": "अवधि:",
+			"noOfAdvanceInstallment": "अग्रिम किस्त की संख्या:",
+			"installmentStartDate": "किस्त प्रारंभ तिथि:",
+			"pattern": "स्वरूप:",
+			"totalNoOfPayment": "भुगतानों की कुल संख्या:",
+			"rateOfInterest": "ब्याज की निश्चित दर:",
+			"repaymentMode": "पुनः भुगतान का प्रकार:",
+			"noOfPdc": "पुनः भुगतान चेक की संख्या:",
+			"irr": "IRR:"
+		},
+		"customerName": "Chandu Singh",
+		"loanAccountNo": "987654321",
+		"totalLoanAmount": "250000",
+		"totalCost": "300000",
+		"downPayment": "50000",
+		"tenure": "48",
+		"noOfAdvanceInstallment": "0",
+		"installmentStartDate": "10-Jun-2020",
+		"pattern": "Semi-Annual",
+		"totalNoOfPayments": "8",
+		"rateOfInterest": "7.79%",
+		"irr": "16.235%",
+		"repaymentMode": "IN.5Y Post Dated Cheque",
+		"noOfPdc": "8"
+	},
+	"additionalCustomersLabel": {
+			"additionalCustomers": "अतिरिक्त ग्राहक:",
+			"thName": "नाम:",
+			"thRole": "भूमिका:"
+		
+	},
+	"additonalCustomerValue": {
+		"customer1": {
+			"name": "Rajmanim Jitai",
+			"role": "Guarantor"
+		},
+		"customer2": {
+			"name": "Yeshveer VedPrakash",
+			"role": "Co-applicant"
+		},
+		"customer3": {
+			"name": "VedPrakash RajDev",
+			"role": "Co-applicant"
+		}
+	},
+	"assetInformationLabel": {
+		"assetInformation": "संपत्ति की जानकारी:",
+		"thModelNo": "मॉडल संख्या:",
+		"thDescription": "विवरण:",
+		"thFinanceAmount": "वित्तीय राशि: रूपए"
+		},
+
+	"assestInformationValue": {
+			"assest1": {
+			"modelNo": "W70",
+			"description": "combine",
+			"financeAmount": "1,380,000.00"
+		}
+	},
+
+	"chequeRepaymentLabel":{
+		"chequeRepayment":"पुनः भुगतान के लिए दिए गए चेक:",
+		"thSrno":"क्रम संख्या:",
+		"thChequeNo":"चेक संख्या:"
+
+	},
+
+	"chequeRepaymentValue": {
+		"cheque": {
+			"srNo": "1",
+			"chequeNo": "123456"
+		},
+		"cheque1": {
+			"srNo": "2",
+			"chequeNo": "123456"
+		}
+	},
+
+	"paymentScheduleLabel":{
+		"paymentSchedule":"भुगतान अनुसूची:",
+		"srNo":"क्रम संख्या:",
+		"paymentDueDate":"भुगतान की देय तिथि",
+		"pdcNo":"PDC No",
+		"installmentAmount":"किस्त की राशि: रूपए",
+		"currentPeriod":"वर्तमान अवधि",
+		"remainingBalance":"शेष राशि",
+		"interestAmount":"ब्याज राशि: रूपए",
+		"principalAmount":"मूल राशि: रूपए"
+		
+			},
+	"paymentSchedule": {
+		"1": {
+			"srNo": "1",
+			"paymentDueDate": "31-AUG-19",
+			"pdcNo": "NA",
+			"installmentAmount": "0.00",
+			"interestAmount": "0.00",
+			"principalAmount": "0.00",
+			"remainingAmount": "1,380,000.00"
+		},
+		"2": {
+			"srNo": "2",
+			"paymentDueDate": "31-DEC-19",
+			"pdcNo": "075256",
+			"installmentAmount": "280,000.00",
+			"interestAmount": "74,685.31",
+			"principalAmount": "205,314.69",
+			"remainingAmount": "1,174,685.31"
+		},
+		"3": {
+			"srNo": "3",
+			"paymentDueDate": "30-JUN-20",
+			"pdcNo": "075257",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "95,360.58",
+			"principalAmount": "159,639.42",
+			"remainingAmount": "1,015,045.89"
+		},
+		"4": {
+			"srNo": "4",
+			"paymentDueDate": "31-DEC-20",
+			"pdcNo": "075258",
+			"installmentAmount": " 255,000.00",
+			"interestAmount": " 82,401.11",
+			"principalAmount": "172,598.89",
+			"remainingAmount": "842,447.00"
+		},
+		"5": {
+			"srNo": "5",
+			"paymentDueDate": "30-JUN-21",
+			"pdcNo": "075259",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "68,389.58",
+			"principalAmount": "186,610.42",
+			"remainingAmount": "655,836.58"
+		},
+		"6": {
+			"srNo": "6",
+			"paymentDueDate": "31-DEC-21",
+			"pdcNo": "075260",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "53,240.61",
+			"principalAmount": "201,759.39",
+			"remainingAmount": " 454,077.19"
+		},
+		"7": {
+			"srNo": "7",
+			"paymentDueDate": "30-JUN-22",
+			"pdcNo": "075261",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "36,861.84",
+			"principalAmount": "218,138.16",
+			"remainingAmount": "235,939.03"
+		},
+		"8": {
+			"srNo": "8",
+			"paymentDueDate": "31-DEC-22",
+			"pdcNo": "075262",
+			"installmentAmount": "255,000.00",
+			"interestAmount": "19,153.46",
+			"principalAmount": "235,846.54",
+			"remainingAmount": "92.49"
+		},
+		"9": {
+			"srNo": "9",
+			"paymentDueDate": "30-JUN-23",
+			"pdcNo": "075263",
+			"installmentAmount": "100.00",
+			"interestAmount": "7.51",
+			"principalAmount": " 92.49",
+			"remainingAmount": "0.00"
+		}
+	},
+	"note": "भुगतान की गई अग्रिम किस्त (यदि कोई हो), खाते के विवरण में परिलक्षित होगी",
+	"disclaimer": {
+		"note": "कृपया ध्यान दें कि चेक बाउंसिंग शुल्क (CBC), विलंबित भुगतान शुल्क (DPC), चेक स्वैपिंग शुल्क, कर्मचारी आदि के यात्रा शुल्क सहित अन्य सभी प्रभार के शुल्क ऋण के अनुबंध, उपप्राधीयन और गारंटी या क्रेडिट/असाइनमेंट/उपप्राधीयन और गारंटी, जैसा लागू हो, के लिए हमारे साथ आपके द्वारा किए गए अनुबंध के अनुसार हैं। अपने आवासीय/कार्यालय के पते या फोन नंबर में किसी भी परिवर्तन के मामले में, कृपया हमें तुरंत सूचित करें ताकि हम आपको बेहतर सेवा दे सकें।",
+		"noteContinued": "हमारे पक्ष में विधिवत अनुमोदित बीमा पॉलिसी, पंजीकरण प्रमाण पत्र और चालान, हमें यथासंभव शीघ्रता से प्रस्तुत किया जाना चाहिए, यदि आपने पहले से ऐसा नहीं किया है।"
+	},
+	"signature": {
+		"orgName": "जॉन डियर फाइनेंशियल इंडिया प्राइवेट लिमिटेड",
+		"addressLine1": "टॉवर-15, द्वितीय तल",
+		"addressLine2": "मगरपट्टा सिटी, हडपसर",
+		"addressLine3": "पुणे-411013, महाराष्ट्र"
+	},
+	"title": "अभिनंदन पत्र",
+	"datePlaceholder": "दिनांक:"
+}

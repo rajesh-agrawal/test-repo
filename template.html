@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	
+	<title>Welcome Letter</title>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<!-- <meta charset="utf-8"> -->
+	<meta charset="utf-8">
+</head>
+
+<body>
+	<div class="letter-title">{{title}}</div>
+	<div class="date">
+		<p>Date: <span id="datetime">{{date}}</span></p>
+	</div>
+	<div class="customer-info">
+		<p>{{customerInfo.customerPrefix}}, {{customerInfo.customerName}}</p>
+		<p>{{ customerInfo.address}}, {{customerInfo.landmark}}</p>
+		<p>{{customerInfo.village}}, {{customerInfo.tehsil}}</p>
+		<p>{{customerInfo.district}},</p>
+		<p>{{customerInfo.state}},</p>
+		<p>{{customerInfo.pincode}}</p>
+
+	</div>
+	<div class="reference">
+		<div class="contract-number"><strong>
+				<span>Ref: Customer Loan Account No:<span>{{contractInfo.contractNumber}}</span></span>
+			</strong></div>
+		<div class="loan-account-number"><strong>
+				<span>Unique Customer Identification Code:<span>{{contractInfo.customerAccountNumber}}</span></span>
+			</strong></div>
+	</div>
+	<div class="customer-greeting">
+		{{#each greeting}}
+			<p>{{this}}</p>
+			{{/each}}
+	</div>
+	<div class="letter-body">
+		{{#each letterBody}}
+			<p>{{this}}</p>
+			{{/each}}
+	</div>
+	<div class="signature">
+		{{#each letterSignature}}
+			<p>{{this}}</p>
+			{{/each}}
+	</div>
+	<!-- <div class="footer">
+		{{#each footer}}
+			<p>{{this}}</p>
+			{{/each}}
+	</div> -->
+	<!--Page 2-->
+	<!-- <div class="header">
+		<div class="header-logo">
+			<img src="https://dzl72pvc84grh.cloudfront.net/jdf-logo.png">
+		</div>
+		<div class="header-address">
+			<div class="address-data">
+				{{#each headerAddress}}
+			<p>{{this}}</p>
+			{{/each}}
+			</div>
+		</div>
+	</div> -->
+	<div class="letter-appendix">
+		<p><strong>{{transactionDetails.label.appendix}}</strong></p>
+		<p><strong>{{transactionDetails.label.appendix.txDetails}}</strong></p>
+	</div>
+	<div class="letter-appendix-data">
+		<div class="rowOne">
+			<p>{{transactionDetails.label.customerName}}<span> {{transactionDetails.customerName }} </span></p>
+			<p>{{transactionDetails.label.totalLoanAmount}}<span> {{transactionDetails.totalLoanAmount}}</span></p>
+			<p>{{transactionDetails.label.downPayment}}<span> {{transactionDetails.downPayment}}</span></p>
+			<p>{{transactionDetails.label.noOfAdvanceInstallment}}<span> {{transactionDetails.noOfAdvanceInstallment}}</span></p>
+			<p>{{transactionDetails.label.pattern}}<span> {{transactionDetails.pattern}}</span></p>
+			<p>{{transactionDetails.label.rateOfInterest}}<span> {{transactionDetails.rateOfInterest}}</span></p>
+			<p>{{transactionDetails.label.repaymentMode}}<span> {{transactionDetails.repaymentMode}}</span></p>
+		</div>
+		<div class="rowTwo">
+			<p>{{transactionDetails.label.loanAccountNo}} <span> {{transactionDetails.loanAccountNo }} </span></p>
+			<p>{{transactionDetails.label.totalCost}}<span> {{transactionDetails.totalCost}}</span></p>
+			<p>{{transactionDetails.label.tenure}}<span> {{transactionDetails.tenure}}</span></p>
+			<p>{{transactionDetails.label.installmentStartDate}}<span> {{transactionDetails.installmentStartDate}}</span></p>
+			<p>{{transactionDetails.label.totalNoOfPayment}}<span> {{transactionDetails.totalNoOfPayments}}</span></p>
+			<p>{{transactionDetails.label.irr}}<span> {{transactionDetails.irr}}</span></p>
+			<p>{{transactionDetails.label.noOfPdc}}<span> {{transactionDetails.noOfPdc}}</span></p>
+		</div>
+	</div>
+	<div class="additional-customers">
+		<span><strong>{{additionalCustomersLabel.additionalCustomers}}</strong></span>
+		<table class="additional-customers-table" style="width:80%; margin-top: 10px; ">
+			<tr>
+				<th style="text-align: left;">{{additionalCustomersLabel.thName}}</th>
+				<th style="text-align: left;">{{additionalCustomersLabel.thRole}}</th>
+			</tr>
+			{{#each additonalCustomerValue}}
+			<tr>
+				<td>{{name}}</td>
+				<td>{{role}}</td>
+			</tr>
+			{{/each}}
+		</table>
+	</div>
+	<div class="asset-information">
+		<span><strong>{{assetInformationLabel.assetInformation}}</strong></span>
+		<table class="asset-information-table" style="width:80%; ">
+			<tr>
+				<th style="text-align: left;">{{assetInformationLabel.thModelNo}}</th>
+				<th style="text-align: left;">{{assetInformationLabel.thDescription}}</th>
+				<th style="text-align: left;">{{assetInformationLabel.thFinanceAmount}}</th>
+			</tr>
+			{{#each assestInformationValue}}
+			<tr>
+				<td>{{modelNo}}</td>
+				<td>{{description}}</td>
+				<td>{{financeAmount}}</td>
+			</tr>
+			{{/each}}
+		</table>
+	</div>
+	<div class="cheque-repayment">
+		<span><strong>{{chequeRepaymentLabel.chequeRepayment}}</strong></span>
+		<table class="cheque-repayment-table" style="width:80%; ">
+			<tr>
+				<th style="text-align: left;">{{chequeRepaymentLabel.thSrno}}</th>
+				<th style="text-align: left;">{{chequeRepaymentLabel.thChequeNo}}</th>
+			</tr>
+			{{#each chequeRepaymentValue}}
+			<tr>
+				<td>{{srNo}}</td>
+				<td>{{chequeNo}}</td>
+			</tr>
+			{{/each}}
+		</table>
+	</div>
+	<!--Page 3-->
+	<div class="payment-schedule">
+		<span><strong>{{paymentScheduleLabel.paymentSchedule}}</strong></span>
+		<table class="payment-schedule-table">
+			<thead>
+				<tr>
+					<th rowspan="2">{{paymentScheduleLabel.srNo}}</th>
+					<th rowspan="2">{{paymentScheduleLabel.paymentDueDate}}</th>
+					<th rowspan="2">{{paymentScheduleLabel.pdcNo}}</th>
+					<th rowspan="2">{{paymentScheduleLabel.installmentAmount}}</th>
+					<th colspan="2">{{paymentScheduleLabel.currentPeriod}}</th>
+
+					<th colspan="2">{{paymentScheduleLabel.remainingBalance}}</th>
+				</tr>
+				<th>{{paymentScheduleLabel.interestAmount}}</th>
+				<th>{{paymentScheduleLabel.principalAmount}}</th>
+				<th>{{paymentScheduleLabel.principalAmount}}</th>
+				</tr>
+			</thead>
+
+			<tbody>
+				{{#each paymentSchedule}}
+				<tr>
+					<td>{{srNo}}</td>
+					<td>{{paymentDueDate}}</td>
+					<td>{{pdcNo}}</td>
+					<td>{{installmentAmount}}</td>
+					<td>{{interestAmount}}</td>
+					<td>{{principalAmount}}</td>
+					<td>{{remainingAmount}}</td>
+				</tr>
+				{{/each}}
+			</tbody>
+		</table>
+	</div>
+	<div class="note"><strong><span>{{note}}</span></strong></div>
+	<div class="line"></div>
+	<div class=disclaimer>
+		<p>{{disclaimer.note}}</p>
+		<p>{{disclaimer.noteContinued}}</p>
+	</div>
+	<div class="line"></div>
+	<div class="address">
+		<p><strong>{{signature.orgName}}</strong></p>
+		<p>{{signature.addressLine1}}</p>
+		<p>{{signature.addressLine2}}</p>
+		<p>{{signature.addressLine3}}</p>
+	</div>
+</body>
+
+</html>
